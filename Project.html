@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <script src="java.js" defer></script>
+
+
+    <link rel="stylesheet" href="design.css">
+    <style>
+        .home {
+            background-color: gold;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body style="background-image: url(1.jpeg) ;">
+
+
+    <div class="dropdown">
+        <button class="dropbtn">pages:</button>
+        <div class="content">
+            <a a href="Project.html" class="home">Home<i style='font-size:45px; color: blue;' class='fas'>&#xf015;</i></a>
+            <a href="Science Fiction.html" class="second">Science Fiction <i style='font-size:45px; color: blue;' class='fab'>&#xf2d6;</i></a>
+            <a href="Food and Health.html" class="four">Food and Health <i style='font-size:45px; color: blue;' class='fas'>&#xf0f1;</i></a>
+            <a href="Hacking.html" class="three">Hacking <i style='font-size:45px; color: blue;' class='fab'>&#xf7bc;</i></a>
+            <a href="Science.html" class="five">Science <i style='font-size:45px; color: blue;' class='fas'>&#xf610;</i></a>
+
+        </div>
+    </div>
+
+    <br>
+    <div class="weldv">
+        <h2 class="wel2">Welcome to Read Library</h2>
+        <p class="wel2">We have many books in many fields such as hacking, science, food and health and science fiction </p>
+    </div>
+
+
+    <div class="dv">
+        <form class="form" action="regis.php">
+            <br>
+            <legend>Creating a New Account</legend>
+            <input type="text" placeholder="First Name" required> <br>
+            <input type="text" placeholder="Last Name" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Password" maxlength="8" required id="pas" style="margin-left: 35px;"> <button onclick="showpwd()"><i class="fas fa-eye"></i></button><br>
+            <input type="text" maxlength="11" minlength="11" placeholder="Phone Number" required id="tele" onclick="chk()"><br>
+            <input type="text" placeholder="Address" required><br>
+
+            <label>Gender:</label> <br>
+            <select name="gender">
+                   <option value="male">Male</option>
+                   <option value="female">Female</option>
+               </select><br>
+            <label>Your Birthday: </label><br>
+            <input type="date" required><br>
+            <input type="checkbox" required>I Agree to the Terms of Use <br>
+            <input type="submit" value="signup" class="submit" onclick="ck()"><br><br>
+
+
+
+        </form>
+    </div>
+
+    <br>
+    <div class="dv2">
+        <form class="form" action="login.php">
+            <br>
+            <legend>Have an Account</legend>
+
+            <input type="email" required placeholder="Email"><br>
+            <input type="password" required maxlength="8" placeholder="Password" id="pass" style="margin-left: 35px;"> <button onclick="showpw()"><i class="fas fa-eye" ></i></button><br>
+            <input type="checkbox"><span style="color: black;">Remember Me</span> <br>
+            <input type="submit" value="login" class="submit" onclick="check()"><br><br>
+
+        </form>
+    </div>
+    <br><br><br>
+    <div class="weldv2">
+        <h2 class="wel">Welcome to Read Library</h2>
+        <p class="wel">We have many books in many fields such as hacking, science, food and health and science fiction </p>
+    </div>
+
+
+</body>
+
+</html>
